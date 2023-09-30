@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+}
+
+nav {
+    background-color: #000;
+    padding: 24px 0;
+}
+
+.sticky-top {
+    position: sticky;
+}
+
+.navmenu img {
+    width: 80px;
+    height: 80px;
+
+}
+
+nav .menu {
+    gap: 24px;
+}
+
+nav .menu> :hover {
+    opacity: 80%;
+    transition: 0.3s;
+
+}
+
+nav .menu a {
+    color: #9BA4B5;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .menu a i {
+    color: #9BA4B5;
+    font-size: 38px;
+}
+
+.plat {
+    color: #9BA4B5;
+    font-size: 22px;
+}
+
+.plat a {
+    display: block;
+    transition: 0.8s;
+}
+
+.plat a:hover {
+    text-decoration: underline;
+
+}
+
+.book-a-table {
+    font-size: 14px;
+    background-color: #940000;
+    padding: 8px 20px;
+    border-radius: 50px;
+
+}
+
+.book-a-table a {
+    color: #fff;
+}
+
+.book-a-table:hover {
+    opacity: 70%;
+}
+
+nav .hamburger-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.fa-bars {
+    font-size: 22px;
+    color: #9BA4B5;
+}
+
+.sidebar {
+    position: absolute;
+    left: -320px;
+    opacity: 0;
+    transition: 1s;
+    visibility: hidden;
+    background-color: #940000;
+    width: 320px;
+    height: 100%;
+    position: fixed;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.sidebar-in {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.sidebar-in img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 64px;
+}
+
+.sidebar-in .logo,
+.sidebar-in .foot {
+    color: #fff;
+
+}
+
+.sidebar .smenu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 228px;
+}
+
+.sidebar .smenu a {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.diva {
+    height: 220px;
+    width: 100%;
+    
+}
+.diva-1 {
+    height: 220px;
+    width: 100%;
+   
+    
+}
+
+.cat {
+    display: inline;
+    color: #9BA4B5;
+    flex-direction: column;
+
+
+}
+
+.cataqory {
+    font-size: 22px;
+
+}
+
+/* .dublaj{
+    display: flex;
+    font-size: 22px;
+} */
+.cataqory a {
+    display: block;
+    color: #9BA4B5;
+}
+
+.cataqory a:hover {
+    text-decoration: underline;
+}
+
+
+.paraqraf {
+    color: #fff;
+    font-size: 38px;
+    margin-left: 16px;
+}
+
+.trend-movie {
+    display: flex;
+    gap: 16px;
+    overflow: scroll;
+    margin-bottom: 32px;
+    height: 300px;
+    width: 100%;
+}
+
+.trend-movie img {
+    height: 280px;
+    width: 180px;
+    border-radius: 25px;
+
+}
+
+.new-movie {
+    display: flex;
+    width: auto;
+    height: 600px;
+    overflow: scroll;
+    background-color: #080202;
+    margin-bottom: 32px;
+}
+
+.new-movie img {
+    height: 280px;
+    width: 180px;
+    border-radius: 25px;
+    margin-bottom: 22px;
+}
+
+.new-dizi {
+    display: flex;
+    width: auto;
+    height: 600px;
+    overflow: scroll;
+    background-color: #080202;
+    margin-bottom: 32px;
+
+}
+
+.new-dizi img {
+    height: 280px;
+    width: 180px;
+    border-radius: 25px;
+    margin-bottom: 22px;
+}
+
+/* .new{
+    display: flex;
+    height: 300px;
+    width: 99%;
+    margin-left: 16px;
+    overflow: scroll;
+    justify-content: center;
+    align-items: end;
+
+} */
+.new img {
+    height: 60px;
+    width: 120px;
+}
+
+
+.diziler img {
+    height: 280px;
+    width: 180px;
+    border-radius: 25px;
+    margin-bottom: 22px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 100%;
+    height: 70px;
+    background-color: #F2EAD3;
+
+
+}
+
+
+.contact a i {
+    font-size: 32px;
+    transition: .3s;
+}
+
+.fa-twitter {
+    color: #1c96e8;
+    transition: .3s;
+}
+
+.fa-instagram {
+    color: #B90097;
+
+}
+
+.fa-facebook {
+    color: #0035BB;
+
+}
+
+.fa-tiktok {
+    color: #000;
+
+}
+
+.fa-telegram {
+    color: #61ADED;
+}
+
+.fa-pinterest {
+    color: #b7081b;
+
+}
+
+.fa-square-envelope {
+    color: #5980F6;
+
+}
+
+.fa-twitter:hover {
+    margin-bottom: 16px
+}
+
+.fa-instagram:hover {
+    margin-bottom: 16px
+}
+
+.fa-facebook:hover {
+    margin-bottom: 16px
+}
+
+.fa-tiktok:hover {
+    margin-bottom: 16px
+}
+
+.fa-pinterest:hover {
+    margin-bottom: 16px
+}
+
+.fa-square-envelope:hover {
+    margin-bottom: 16px
+}
+
+.fa-telegram:hover {
+    margin-bottom: 16px;
+}
